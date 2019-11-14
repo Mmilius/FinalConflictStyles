@@ -13,23 +13,48 @@ User.destroy_all
 Category.destroy_all
 
 avoider = Category.create({
-    category: "Avoider"
+    category: "Avoider",
+    description: "Viewed as having a calm and quiet presence",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyU2AXWqjsAsChL0gCWRLota36q9yZ-t2HBIP1v49cMRHk4MXu",
+    bullets: "Driven by fear. Attempts to disempower others. Refuses to communicate. Withdraws or removes themselves from the conflict. Denies problems. Pretends nothing is wrong.",
+    uses: "When confrontation is dangerous or hostile. When time or space is needed to prepare a resolution.",
+    limits: "Issues remain unresolved and resurface."
 })
 
 competitor = Category.create({
-    category: "Competitor"
+    category: "Competitor",
+    description: "Viwed as persuasive and direct. They know what they want and they won't stop until they get it. Passionate and dedicated to their positions.",
+    image: "https://i.pinimg.com/originals/d3/75/c9/d375c99d6d554d97c453bcbc1c06ccd3.png",
+    bullets: "Seek to take control. Want what is right at all costs. May interrupt, ignore, yell, or make demands. Not flexible.",
+    uses: "When a quick action is needed. When the 'right' action needs to be done.",
+    limits: "Risks igniting more fire. Weakens others."
 })
 
 compromiser = Category.create({
-    category: "Compromiser"
+    category: "Compromiser",
+    description: "Viewed as logical and resonable; somewhat fair.",
+    image: "https://ya-webdesign.com/images250_/handshake-clipart-great-compromise-7.png",
+    bullets: "Willing to surrender some positions. Voice their opinions and needs. Give and take approach. Empower themselves and others. Seek a solution.",
+    uses: "When a quick solution is needed and nothing seems to be working",
+    limits: "Real issues may not be addressed. Poor commitment to follow through on resolution. All invovled may be unhappy with resolution."
 })
 
 accomodator = Category.create({
-    category: "Accomodator"
+    category: "Accomodator",
+    description: "Viwed as having a clam and quiet presence in the face of crisis.",
+    image: "https://cdn1.vectorstock.com/i/1000x1000/95/65/black-and-white-pillow-vector-8649565.jpg",
+    bullets: "Driven by fear. Attempt to disempower others. Refuse to communicate. Withdraw or removes themselves from the conflict. Deny problems. Pretend nothing is wrong.",
+    uses: "When confrontation is dangerous/hostile or when time is needed to prepare for a resolution.",
+    limits: "Issues remain unresolved and resurface."
 })
 
 collaborator = Category.create({
-    category: "Collaborator"
+    category: "Collaborator",
+    description: "Viewed as known for building trust and mutual understanding.",
+    image: "https://4waziat6zc-flywheel.netdna-ssl.com/wp-content/uploads/2015/09/collaboration_puzzleboth.png",
+    bullets: "Seeks to please everyone invovled. Analyzes the sources of conflict. Addresses or acknowledges feelings, needs, and wants. Empowers others to take responsibility and act. Communicates openly.",
+    uses: "When an immediate resolution is not needed. When there is time to creatively problem solve.",
+    limits: "Takes more time, control, and tactful communication. May exhaust the problem and parties."
 })
 
 
@@ -176,5 +201,127 @@ result1 = Result.create({
     quiz: quiz1,
     answer: 3
 })
+result2 = Result.create({
+    question: question2,
+    quiz: quiz1,
+    answer: 4
+})
+result3 = Result.create({
+    question: question3,
+    quiz: quiz1,
+    answer: 5
+})
+result4 = Result.create({
+    question: question4,
+    quiz: quiz1,
+    answer: 5
+})
+result5 = Result.create({
+    question: question5,
+    quiz: quiz1,
+    answer: 1
+})
+result6 = Result.create({
+    question: question6,
+    quiz: quiz1,
+    answer: 5
+})
+result7 = Result.create({
+    question: question7,
+    quiz: quiz1,
+    answer: 3
+})
+result8 = Result.create({
+    question: question8,
+    quiz: quiz1,
+    answer: 4
+})
+result9 = Result.create({
+    question: question9,
+    quiz: quiz1,
+    answer: 5
+})
+result10 = Result.create({
+    question: question10,
+    quiz: quiz1,
+    answer: 1
+})
+result11 = Result.create({
+    question: question11,
+    quiz: quiz1,
+    answer: 1
+})
+result12 = Result.create({
+    question: question12,
+    quiz: quiz1,
+    answer: 4
+})
+result13 = Result.create({
+    question: question13,
+    quiz: quiz1,
+    answer: 2
+})
+result14 = Result.create({
+    question: question14,
+    quiz: quiz1,
+    answer: 5
+})
+result15 = Result.create({
+    question: question15,
+    quiz: quiz1,
+    answer: 5
+})
+result16 = Result.create({
+    question: question16,
+    quiz: quiz1,
+    answer: 1
+})
+result17 = Result.create({
+    question: question17,
+    quiz: quiz1,
+    answer: 1
+})
+result18 = Result.create({
+    question: question18,
+    quiz: quiz1,
+    answer: 4
+})
+result19 = Result.create({
+    question: question19,
+    quiz: quiz1,
+    answer: 5
+})
+result20 = Result.create({
+    question: question20,
+    quiz: quiz1,
+    answer: 4
+})
+result21 = Result.create({
+    question: question21,
+    quiz: quiz1,
+    answer: 1
+})
+result22 = Result.create({
+    question: question22,
+    quiz: quiz1,
+    answer: 3
+})
+result23 = Result.create({
+    question: question23,
+    quiz: quiz1,
+    answer: 4
+})
+result24 = Result.create({
+    question: question24,
+    quiz: quiz1,
+    answer: 4
+})
+result25 = Result.create({
+    question: question25,
+    quiz: quiz1,
+    answer: 5
+})
+
+
 
 
