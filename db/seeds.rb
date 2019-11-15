@@ -14,7 +14,7 @@ Category.destroy_all
 
 avoider = Category.create({
     category: "Avoider",
-    description: "Viewed as having a calm and quiet presence",
+    description: "Viewed as having a calm and quiet presence.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyU2AXWqjsAsChL0gCWRLota36q9yZ-t2HBIP1v49cMRHk4MXu",
     bullets: "Driven by fear. Attempts to disempower others. Refuses to communicate. Withdraws or removes themselves from the conflict. Denies problems. Pretends nothing is wrong.",
     uses: "When confrontation is dangerous or hostile. When time or space is needed to prepare a resolution.",
@@ -23,9 +23,9 @@ avoider = Category.create({
 
 competitor = Category.create({
     category: "Competitor",
-    description: "Viwed as persuasive and direct. They know what they want and they won't stop until they get it. Passionate and dedicated to their positions.",
+    description: "Viewed as persuasive and direct. They know what they want and they won't stop until they get it. Passionate and dedicated to their positions.",
     image: "https://i.pinimg.com/originals/d3/75/c9/d375c99d6d554d97c453bcbc1c06ccd3.png",
-    bullets: "Seek to take control. Want what is right at all costs. May interrupt, ignore, yell, or make demands. Not flexible.",
+    bullets: "Seek to take control. Want what is 'right' at all costs. May interrupt, ignore, yell, or make demands. Not flexible.",
     uses: "When a quick action is needed. When the 'right' action needs to be done.",
     limits: "Risks igniting more fire. Weakens others."
 })
@@ -41,11 +41,11 @@ compromiser = Category.create({
 
 accomodator = Category.create({
     category: "Accomodator",
-    description: "Viwed as having a clam and quiet presence in the face of crisis.",
+    description: "Viewed as trustworthy or appreciated by those in the conflict.",
     image: "https://cdn1.vectorstock.com/i/1000x1000/95/65/black-and-white-pillow-vector-8649565.jpg",
-    bullets: "Driven by fear. Attempt to disempower others. Refuse to communicate. Withdraw or removes themselves from the conflict. Deny problems. Pretend nothing is wrong.",
-    uses: "When confrontation is dangerous/hostile or when time is needed to prepare for a resolution.",
-    limits: "Issues remain unresolved and resurface."
+    bullets: "Yields to other's positions and or concerns. Willing to change or sacrifice. Relationship focused. Empowers others. Silences own opinions and desires. Apologies or agrees to resolve the conflict. Allows others to interrupt, ignore them or act inappropriately.",
+    uses: "When there are problems you've made or cannot resolve. When the relationship is at risk and time is a factor.",
+    limits: "Being nice does not solve anything. Your position or desires are unmet."
 })
 
 collaborator = Category.create({
